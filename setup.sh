@@ -72,12 +72,12 @@ sh -c ./install.sh
 brew cask install --appdir="/Applications" google-chrome
 
 # Development tool casks
-brew cask install --appdir="/Applications" visual-studio-code
-brew cask install --appdir="/Applications" tailscale
-brew cask install --appdir="/Applications" microsoft-remote-desktop
+brew install --cask --appdir="/Applications" visual-studio-code
+brew install --cask --appdir="/Applications" tailscale
+brew install --cask --appdir="/Applications" microsoft-remote-desktop
 
 # Misc casks
-brew cask install --appdir="/Applications" caffeine
+brew  install --cask --appdir="/Applications" caffeine
 
 # Remove outdated versions from the cellar.
 echo "Running brew cleanup..."
