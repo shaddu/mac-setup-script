@@ -73,6 +73,8 @@ brew cask install --appdir="/Applications" google-chrome
 
 # Development tool casks
 brew cask install --appdir="/Applications" visual-studio-code
+brew cask install --appdir="/Applications" tailscale
+brew cask install --appdir="/Applications" microsoft-remote-desktop
 
 # Misc casks
 brew cask install --appdir="/Applications" caffeine
